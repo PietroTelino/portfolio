@@ -1,0 +1,926 @@
+body{
+  height: 100%;
+  font-family: 'Roboto', 'Inconsolata', sans-serif;                
+  font-weight: 300;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-color: #fff/*#E6E7DF/*E8E8E8*/;
+}
+
+img{
+  /*cursor: pointer;*/
+}
+
+h1 img{
+  cursor: pointer;
+}
+
+p{
+  text-align: justify;
+  font-size: 18px;
+  color: black;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.text-align-center{
+  text-align: center;
+}
+
+.width-100porcento{
+  width: 100%;
+}
+
+.max-width-100{
+  max-width: 100px;
+}
+
+.max-width-148{
+  max-width: 148px;
+}
+
+.max-width-175{
+  max-width: 175px;
+}
+
+.max-width-350{
+  max-width: 350px;
+}
+
+.seletor-arquivo{
+  padding: 6.5px 5px;
+  /*height: 35px;*/
+  /*width: 200px;*/
+  background-color: #001777;
+  color: #FFF;
+  /*text-transform: uppercase;*/
+  text-align: center;
+  display: block;
+  margin-top: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 15px;
+  max-width: 350px;
+}
+.seletor-arquivo:hover{
+  transition: all .4s;
+  cursor: pointer;
+  background-color: #001050;
+}
+
+.borda-dados-inscricao{
+  padding: 0 18px; 
+
+  margin-top: 20px;
+  padding-top: 15px; 
+  border-color: #2296f2;
+  border-style: solid;
+  border-width: 0px 0px 0px 5px;
+  /*background-color: #b4e1fc;*/
+}
+
+.exibidor-arquivo{
+  max-width: 400px;
+  text-align: center;
+}
+
+.borda-exibidor-arquivo{
+  /*border: all;*/
+  /*border-color: black;*/
+  margin-top: 20px;
+   
+  border-color: black;
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  /*background-color: black;*/
+  border-radius: 5px; 
+  border: none;
+  text-align: center;
+}
+
+.borda-perfil{
+  /*border: all;*/
+  /*border-color: black;*/
+  margin-top: 20px;
+  padding-top: 15px; 
+  border-color: #2296f2;
+  border-style: solid;
+  border-width: 0px 0px 0px 5px;
+  background-color: #b4e1fc;
+}
+
+.borda-editar-perfil{
+  margin-top: 20px;
+  padding-top: 15px; 
+  padding-bottom: 15px;
+  border-color: #2296f2;
+  border-style: solid;
+  border-width: 0px 0px 0px 5px;
+  background-color: #b4e1fc;
+}
+
+.div-escolher-pacote{
+  margin-left: 275px;
+}
+
+.sessao-mapa{
+  margin-top: 340px;
+}
+
+#questao{
+  min-width: 100%;
+  min-height: 120px;
+  max-height: 120px;
+}
+
+.linhaTabela{
+  margin: 18px 0;
+}
+/*.centralizado{
+  text-align: center;
+}*/
+.linhaTabelaPar{
+  background-color: #87CEFA/*rgba(64,64,255, .4)*/;
+  font-weight: 400;
+}
+.linhaTabelaImpar{
+  background-color: #fff/*rgba(144,238,144, .4)*/;
+  font-weight: 400;
+}
+
+select {
+  height: 30px;
+  width: 100%;
+}
+
+.input-pesquisa{
+  padding: 3.5px 0;
+}
+
+/*botão generalizado - início*/
+/*.botao-cadastro{
+  transition: all .4s;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #228B22;
+}*/
+/*.botao-cadastro:hover{
+  transition: all .4s;
+  cursor: pointer;
+  background-color: #228B22;
+}*/
+/*botão generalizado - fim*/
+
+.margin-top-5{
+  margin-top: 5px;
+}
+
+.margin-top-8{
+  margin-top: 8px;
+}
+
+.margin-top-10{
+  margin-top: 10px;
+}
+
+.margin-top-15{
+  margin-top: 15px;
+}
+
+.margin-top-20{
+  margin-top: 20px;
+}
+
+.margin-top-30{
+  margin-top: 30px;
+}
+
+.margin-top-40{
+  margin-top: 40px;
+}
+
+.margin-top-50{
+  margin-top: 50px;
+}
+
+.margin-top-60{
+  margin-top: 60px;
+}
+
+.margin-bottom-10{
+  margin-bottom: 20px;
+}
+
+.margin-bottom-40{
+  margin-bottom: 40px;
+}
+
+.margin-bottom--10{
+  margin-bottom: -10px;
+}
+
+.margin-bottom--27{
+  margin-bottom: -27px;
+}
+
+.margin-bottom-0{
+  margin-bottom: 0px;
+}
+
+.margin-bottom-90{
+  margin-bottom: 90px;
+}
+
+.margin-right--15{
+  margin-right: -15px;
+}
+
+.magin-right-0{
+ /* margin-right: 0px;
+  margin-left: 0px;*/
+}
+
+.sem-padding-left{
+  padding-left: 0;
+}
+
+.sem-padding-right{
+  padding-right: 0;
+}
+
+.padding-5{
+  padding: 0 5px;
+}
+
+.padding-top-40{
+  padding-top: 40px;
+}
+
+.distancia-segura-do-footer{
+  margin-bottom: 0px;
+}
+
+.font-weight-300{
+  font-weight: 300;
+}
+
+.font-weight-400{
+  font-weight: 400;
+}
+
+.titulo-sessao{
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+}
+
+label {
+  cursor: pointer;
+}
+
+.centralizado {
+  text-align: center;
+}
+
+.caixa {
+  width: 400;
+  padding: 50px 70px;
+  background: #191970;
+  border-radius: 15px;
+  text-align: left;
+  color: #fff;
+}
+
+.contenedor {
+  margin: 0 auto;
+  width: 100vh;
+  height: 100vh;
+  /*border: 1px solid #c30;*/
+  /*background: #ffe;*/
+  position: relative;
+  display:table;
+  text-align: center;
+}
+
+.tabela-em-coluna {
+  *position: absolute;
+  top: 50%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.tabela-em-bloco {
+  display:block;
+  *position: relative;
+  top: -50%;
+}
+
+.botao-cadastro{
+  width: 100%;
+  transition: all .4s;
+  height: 38px;/*35px*/
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #001777/*#001e93/*#001050*/;
+}
+
+.botao-cadastro:hover{
+  transition: all .4s;/*talvez deveria colo .4 mesmo, pois 0.8 pode causar uma confusão do usuário*/
+  cursor: pointer;
+  background-color: #001050/*#008000*/;
+}
+
+.botao-pesquisa{
+  /*transition: all .4s;*/
+  border: none;
+  color: white;
+  background-color: #001777;
+}
+
+.botao-pesquisa:hover{
+  transition: all .4s;
+  cursor: pointer;
+  background-color: #001050;
+}
+/**Fim Tela Principal**/
+
+.botao-realizar-inscricao{
+  width: 100%;
+  transition: all .4s;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #008000/*#001e93/*#001050*/;
+}
+
+.botao-realizar-inscricao:hover{
+  transition: all .4s;/*talvez deveria colo .4 mesmo, pois 0.8 pode causar uma confusão do usuário*/
+  cursor: pointer;
+  background-color: #006c00/*#008000;*/
+}
+
+.botao-vermelho{
+  background-color: #b5202f/*#dc3545*/;
+}
+
+.botao-vermelho:hover{
+  background-color: #ff151c/*#9f1c28*//*#b5202f*/;
+}
+
+.botao-add-contato{
+  width: 80px;
+  height: 80px;
+  transition: all .4s;
+  border: none;
+  border-radius: 100px;
+  color: white;
+  background-color: #228B22;
+  margin: 27px 0px;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 400;
+}
+.botao-remover-contato{
+  background-color: #FE2E2E;  
+}
+.display-none{
+  display: none;
+}
+.botao-add-contato:hover{
+  transition: all .4s;
+  cursor: pointer;
+  background-color: #008000;
+}
+.botao-remover-contato:hover{
+  background-color: #FF0000;
+}
+
+.botao-add-jogador{
+  width: 100%;
+  height: 52px;
+  transition: all .4s;
+  border: none;
+  /*border-radius: 100px;*/
+  color: white;
+  background-color: #228B22;
+  margin: 0px 0px;
+  /*font-size: 10px;*/
+  text-align: center;
+  font-weight: 400;
+  /*float: left;*/
+}
+.botao-remover-jogador{
+  background-color: #FE2E2E;  
+}
+.botao-add-jogador:hover{
+  transition: all .4s;
+  cursor: pointer;
+  background-color: #008000;
+}
+.botao-remover-jogador:hover{
+  background-color: #FF0000;
+}
+
+.header{
+  position: fixed;
+  background-color: #000/*#212121*/; 
+  color: white;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9;
+  height: 90px;
+}
+
+.titulo-sessao{
+  font-size: 30px;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  font-family: Inconsolata;
+  margin-top: 40px;
+}
+
+.sub-titulo{
+  font-size: 26px;
+  text-align: center;
+  font-weight: 400;
+}
+
+.sessao{
+  /*padding-top: 90px;*/
+  padding-bottom: 40px;
+}
+
+#inicio{
+  padding-top: 90px;
+  color: black;
+  padding-bottom: 0px;
+}
+
+#inicio img{
+  width: 100%;
+}
+
+#servicos{
+  /*padding-top: 90px;*/
+  color: #fff;
+  text-align: center;
+  background-color: #1A3873;
+  /*padding-bottom: 90px; */
+  /*margin-top: -90px;*/
+}
+
+#servicos p{
+  color: #fff;
+  text-align: center;
+  font-size: 21px;
+}
+
+#servicos ul{
+  text-align: left;
+  font-size: 26px;
+}
+
+#servicos h4{
+  color: #fff/*#feb21a*/;
+  font-size: 28px;
+  text-align: center;  
+  letter-spacing: 1.5px;
+  font-family: Inconsolata;
+}
+
+#sobre{
+  /*padding-top: 90px;*/
+  color: #fff;
+  /*text-align: center;*/
+  font-size: 26px;  
+  background-color: #b1770a;
+  /*padding-bottom: 90px; */
+}
+
+#sobre iframe{
+  width: 100%;
+  height: 600px;
+}
+
+#sobre input{
+  width: 100%;
+}
+
+#sobre label{
+  text-align: left;
+}
+
+#sobre p{
+  color: #BDE3F2;
+  text-align: justify;
+  font-size: 21px;
+}
+
+#sobre h4{
+  color: #BDE3F2/*#feb21a*/;
+  font-size: 28px; 
+  text-align: left;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  font-family: Inconsolata;
+}
+
+#contato {
+  /*padding-top: 90px;*/
+  color: black;
+  text-align: center;
+  font-size: 26px;
+  background-color: #F26A4B;
+  /*padding-bottom: 90px; */
+}
+
+#contato p {
+  color: #BDE3F2;
+  text-align: justify;
+  font-size: 21px;
+}
+
+#contato h3{
+  color: #fff;
+  font-size: 28px;  
+  font-weight: 400;
+  text-align: left;
+  letter-spacing: 1.5px;
+  font-family: Inconsolata;
+}
+
+#contato label{
+  color: #fff;
+  font-size: 22px;
+  width: 100%;
+  text-align: left;
+}
+
+#contato input{
+  color: #fff;
+  font-size: 22px;
+  width: 100%;
+  text-align: left;
+  background-color: #F26A4B;
+}
+
+#contato textarea{
+  color: #fff;
+  max-width: 100%;
+  min-width: 100%;
+  max-height: 100px;
+  min-height: 160px;
+  background-color: #F26A4B;
+}
+
+#contato button{
+  font-size: 18px;
+}
+
+/*#veja_mais{
+  padding-top: 90px;
+  background-image: url("../img/arqueira_1544x1500.png");
+  background-position: left;
+  background-size: 100vh;
+  background-repeat: no-repeat;
+  height: 100vh;
+  min-height: 500px;
+  color: black;
+  text-align: center;
+  font-size: 26px;
+}*/
+
+.link-blank ul li{
+  list-style: none;
+  margin-left: -33px;
+}
+
+.link-blank ul li a{
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.link-blank ul li a:hover{
+  text-decoration: none;
+  color: #ff9900;
+  transition: all .8s;
+}
+
+.logo h1{
+  font-weight: 100;
+  margin-top: 5px;
+  font-size: 2em;
+}
+
+/*Classe do Menu Superior*/
+.menu{
+  list-style: none;  
+  float: right; 
+  margin-top: 25px;
+  font-size: 18px;
+  /*text-transform: capitalize;*/
+  font-family: 'Inconsolata';
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+/*Início - Definindo menu superior*/
+.menu li{
+  position: relative; 
+  float: left; 
+  cursor: pointer;
+}
+
+.menu li{/*a*/
+  color: #fff/*#001050*/; 
+  font-weight: 400;
+  background-color: #000/*#212121/*#87CEFA/*#228B22*/;
+  text-decoration: none; 
+  padding: 5px 10px; 
+  display: block;
+}
+.endereco{
+  text-align: left;  
+}
+.endereco ul{
+  margin-left: 0px;
+}
+.endereco ul li{
+  list-style: none;
+}
+.rede-social{
+  text-align: left;
+  padding-top: 10px;
+  height: 75px;  
+  border-color: white;
+  border-style: solid;
+  padding-bottom: 120px;
+  /*border-width: 0px 1px 0px 0px;*/
+}
+.rede-social ul{
+  justify-content: flex-start;
+}
+.rede-social ul li{
+  list-style: none;
+  margin-top: 7px;
+}
+.rede-social ul li a{
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.menu li:hover{/*a*/
+  background: #000/*#212121/*#001050*/; 
+  color: #FFFF00/*#feb21a/*#87CEFA*/; 
+}
+
+.menu li ul{
+  position: absolute; 
+  top: 29px; /*25*/ 
+  left: 0; 
+  background-color: #fff; 
+  display: none; 
+}
+
+.menu li:hover ul, .menu li.over ul{
+  display:block;
+}
+
+.menu li ul li{ 
+  text-align: center;
+  display:block; 
+  width:220px;
+}
+/*Fim - Definindo menu superior*/
+
+#botao-menu{
+  display: none;
+}
+
+/*Menu dropdown é um menu a parte, que tem as mesmas opções que o menu superior*/
+#menu-dropdown{
+  display: none;
+  position: fixed;
+}
+
+/*Início - Rodapé*/
+.footer{
+    clear: both;
+    font-size: 16px;
+    height: 64px;
+    text-align: center;
+    background-color: #212121/*#001050*//*#836FFF*/;
+    color: #fff;
+    padding: 22px 0;
+    clear: both;
+    /*margin-top: 40px;*/
+    position: relative;
+    font-weight: 100;  
+    /*margin-top: -64px;*/
+    letter-spacing: 4px;
+}
+
+/*Classe utilizada para deixar o rodapé sempre no final do site*/
+.margin-top-negativa-64{
+  margin-top: -170px;
+}
+
+.absolute-bottom{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.texto-rodape{
+  margin-top: 30px;
+}
+/*Fim - Rodapé*/
+
+/*Quando a largura da tela for menor que 992 que é referente ao tamanho large do bootstrap, o css será alterado*/
+@media (max-width: 991px){
+  #menu-superior{
+    display: none;
+  }
+
+  #botao-menu{
+    display: inline;
+    float: right;
+    margin-top: 10px;
+    font-size: 50px;
+    font-weight: 100;
+    color: #fff/*#001050*/;
+  }
+  
+  #menu-dropdown{
+    display: block;
+    z-index: 100;
+    margin-top: -100%;
+    text-align: center;
+    background-color: #000/*#212121/*#87CEFA/*#228B22*/;
+    font-size: 18px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+
+  #menu-dropdown ul{
+    list-style: none;
+    /*margin-left: -40px; Foi tirado uma margem de 40 à esquerda pois o bootstrap coloca essa margin*/
+    margin-bottom: 0;
+  }
+  
+  #menu-dropdown ul li{
+    margin: 0;
+
+    padding: 5px;
+    cursor: pointer;    
+    color: #fff/*#001050*/;    
+  }
+  
+  #menu-dropdown ul li:hover{
+    background: #000/*#212121/*#001050*/; 
+    color: #FFFF00/*#feb21a/*#87CEFA*/; 
+  }
+}
+/*Large segundo o bootstrap*/
+@media (min-width: 992px) and (max-width: 1199px){
+  .div-escolher-pacote{
+    margin-left: 220px;
+  }
+  .titulo-sessao{
+    margin-top: 20px;
+  }
+}
+
+/*Medium segundo o bootstrap*/
+@media (min-width: 768px) and (max-width: 991px){
+  /*.footer{
+    height: 170px;
+  }*/
+  .div-escolher-pacote{
+    margin-left: 142px;
+  }
+  #servicos h4{
+    margin-top: 0;
+  }
+  .titulo-sessao{
+    margin-top: 20%; 
+  }
+  #sobre h4{
+    margin-top: 20px;
+  }
+  .titulo-sessao{
+    margin-top: 20px;
+  }
+}
+
+/*Small segundo o bootstrap*/
+@media (min-width: 576px) and (max-width: 767px){
+  .footer{
+    height: 84px;
+  }
+  .margin-top-negativa-64{
+    margin-top: -85px;
+  }
+  .distancia-segura-do-footer{
+    margin-bottom: 90px;
+  }
+  .nascimento{
+    display: none;
+  }
+  .texto-botao-pesquisa{
+    display: none;
+  }
+  .rede-social{
+    height: 95px;
+  }
+  .div-escolher-pacote{
+    margin-left: 172px;
+  }
+  #servicos h4{
+    margin-top: 0;
+  }
+  .titulo-sessao{
+    margin-top: 20%; 
+  }
+  #sobre h4{
+    margin-top: 20px;
+  }
+  #sobre iframe{
+    width: 100%;
+    height: 520px;
+  }
+  .titulo-sessao{
+    margin-top: 20px;
+  }
+}
+
+/*Extra Small segundo o bootstrap*/
+@media (max-width: 575px){
+  .footer{
+    height: 84px;
+  }
+  .margin-top-negativa-64{
+    margin-top: -85px;
+  }
+  .distancia-segura-do-footer{
+    margin-bottom: 21px;
+  }
+  .nascimento{
+    display: none;
+  }
+  .nome{
+    display: none;
+  }
+  .texto-botao-pesquisa{
+    display: none;
+  }
+  .endereco{
+    margin-left: -30px;
+  }
+  .endereco ul li{
+    font-size: 12px;
+  }
+  .rede-social{
+    height: 108px;
+  }
+  .rede-social ul li{
+    margin-right: -35px;
+  }
+  .div-escolher-pacote{
+    margin-left: 80px;
+  }
+  #servicos h4{
+    margin-top: 0;
+  }
+  .titulo-sessao{
+    margin-top: 25%; 
+  }
+  #sobre h4{
+    margin-top: 20px;
+  }
+  #sobre iframe{
+    width: 100%;
+    height: 500px;
+  }
+  .titulo-sessao{
+    margin-top: 20px;
+  }
+}
