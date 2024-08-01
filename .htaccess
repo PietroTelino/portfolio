@@ -1,4 +1,3 @@
-
 # https://httpd.apache.org/docs/current/mod/mod_rewrite.html
 # Ativar o módulo Rewrite, que realiza a reescrita de URLs
 RewriteEngine On
