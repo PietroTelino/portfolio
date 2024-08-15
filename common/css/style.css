@@ -621,7 +621,7 @@ label {
 
 .logo h1{
   font-weight: 100;
-  /* margin-top: 5px; */
+  margin-top: -5px;
   font-size: 2em;
 }
 
@@ -630,7 +630,7 @@ label {
   list-style: none;  
   float: right; 
   margin-top: 25px;
-  font-size: 18px;
+  font-size: 16px;
   /*text-transform: capitalize;*/
   font-family: 'Inconsolata';
   font-weight: 300;
@@ -771,7 +771,7 @@ label {
     margin-top: -100%;
     text-align: center;
     background-color: #000/*#212121/*#87CEFA/*#228B22*/;
-    font-size: 18px;
+    font-size: 16px;
     position: fixed;
     left: 0;
     top: 0;
